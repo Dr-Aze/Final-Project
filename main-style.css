@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
+  padding: 0.25em 1em;
 }
 
 header h1 {
@@ -43,8 +43,8 @@ nav ul li a:hover {
 .sdg-stats {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px 20px;
+  justify-content: space-evenly;
+  padding: 10px 10px;
   font-family: 'Arial', sans-serif;
 }
 
@@ -54,7 +54,7 @@ nav ul li a:hover {
 }
 
 .title h2 {
-  font-size: 2rem;
+  font-size: 2.5em;
   font-weight: 900;
   margin: 0;
 }
@@ -82,7 +82,6 @@ nav ul li a:hover {
 }
 
 .stat .label {
-  display: block;
   font-size: 0.9rem;
   color: #555;
 }
@@ -128,13 +127,13 @@ nav ul li a:hover {
 /* Footer */
 footer {
   text-align: center;
-  background-color: #002b7f;
-  color: #fff;
+  background-color: #009edb;
+  color: #ffff;
   padding: 15px;
   margin-top: 20px;
 }
 
 .link {
-  color: #ffffff; 
+  color: #ffff; 
   text-decoration: none;
 }
