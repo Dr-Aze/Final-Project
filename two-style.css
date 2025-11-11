@@ -73,11 +73,11 @@ section h2 {
 
 section p {
   text-align: justify;
-  font-size: 1.1em;
+  font-size: 1.5;
 }
 
 .why {
-  background-color: hsl(65, 100%, 95%);
+  background-color: #ffe6eb;
   border-radius: 15px;
   padding: 40px 30px;
   margin-top: 40px;
@@ -111,19 +111,19 @@ section p {
   margin-bottom: 10px;
 }
 
-ul {
+sectionul {
   list-style: none;
   padding: 0;
   margin-top: 15px;
 }
 
-ul li {
+section ul li {
   margin: 10px 0;
   padding-left: 25px;
   position: relative;
 }
 
-ul li::before {
+section ul li::before {
   content: "✔";
   position: absolute;
   left: 0;
