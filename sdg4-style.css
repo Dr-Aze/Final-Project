@@ -5,23 +5,60 @@ body {
   line-height: 1.6;
 }
 
-header {
-  background-color: #ee402a;
-  color: white;
-  text-align: center;
-  padding: 80px 20px;
+/* Header */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  flex-wrap: wrap;
 }
 
-header h1 {
+.un-logo {
+  max-width: 30em;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Header content box */
+.header-content {
+  background-color: #c31f33;
+  color: white;
+  text-align: center;
+  padding: 95px 20px;
+  margin-top: 20px;
+}
+
+.header-content h1:first-child {
   font-size: 2.5em;
   margin-bottom: 10px;
 }
 
-header p {
-  font-size: 1.2em;
-  opacity: 0.9;
+.header-content h1:last-child {
+  font-size: 2em;
 }
 
+.header-content img {
+  margin-top: 16px;
+  height: 256px;
+}
+
+/* Section */
 section {
   padding: 60px 20px;
   max-width: 1000px;
@@ -29,7 +66,7 @@ section {
 }
 
 section h2 {
-  color: #ee402a;
+  color: #c31f33;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -40,7 +77,7 @@ section p {
 }
 
 .why {
-  background-color: #ffe6eb;
+  background-color: #ffe9e6;
   border-radius: 15px;
   padding: 40px 30px;
   margin-top: 40px;
@@ -74,28 +111,28 @@ section p {
   margin-bottom: 10px;
 }
 
-ul {
+section ul {
   list-style: none;
   padding: 0;
   margin-top: 15px;
 }
 
-ul li {
+section ul li {
   margin: 10px 0;
   padding-left: 25px;
   position: relative;
 }
 
-ul li::before {
+section ul li::before {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #e41e26;
+  color: #c31f33;
   font-weight: bold;
 }
 
 footer {
-  background-color: #ee402a;
+  background-color: #c31f33;
   color: white;
   text-align: center;
   padding: 50px 20px;
@@ -106,6 +143,11 @@ footer p {
   font-size: 1.2em;
   margin-bottom: 15px;
   font-style: italic;
+}
+
+footer a{
+  color: white;
+  text-decoration: none; 
 }
 
 footer small {
