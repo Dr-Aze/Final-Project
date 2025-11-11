@@ -6,18 +6,19 @@ body {
 }
 
 header {
+  background-color: #c31f33;
   color: white;
   text-align: center;
   padding: 80px 20px;
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 10px;
 }
 
 header p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   opacity: 0.9;
 }
 
@@ -28,17 +29,18 @@ section {
 }
 
 section h2 {
+  color: #c31f33;
   text-align: center;
   margin-bottom: 20px;
 }
 
 section p {
   text-align: justify;
-  font-size: 1.5;
+  font-size: 1.1em;
 }
 
 .why {
-  background-color: #ffe6eb;
+  background-color: hsl(9, 100%, 95%);
   border-radius: 15px;
   padding: 40px 30px;
   margin-top: 40px;
@@ -88,11 +90,12 @@ ul li::before {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #e41e26;
+  color: #c31f33;
   font-weight: bold;
 }
 
 footer {
+  background-color: #c31f33;
   color: white;
   text-align: center;
   padding: 50px 20px;
@@ -103,6 +106,11 @@ footer p {
   font-size: 1.2em;
   margin-bottom: 15px;
   font-style: italic;
+}
+
+footer a{
+  color: white;
+  text-decoration: none; 
 }
 
 footer small {
