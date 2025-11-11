@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header h1 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Stats */
+.sdg-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.divider {
+  width: 2px;
+  height: 40px;
+  background-color: #00aaff;
+  margin-left: 1em;
+}
+
+.stats {
+  display: flex;
+  gap: 2em;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat .number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.stat .label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+/* Goals grid */
+.goals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  padding: 40px;
+  text-align: center;
+}
+
+.goal {
+  color: white;
+  border-radius: 10px;
+  padding: 40px 10px;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.goal span {
+  display: block;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.goal:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.goals img {   
+  height: 12em;
+  width: 12em;      
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #002b7f;
+  color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.link {
+  color: #ffffff; 
+  text-decoration: none;
+}
