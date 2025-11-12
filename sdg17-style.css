@@ -37,7 +37,7 @@ nav ul li a:hover {
 
 /* Header content box */
 .header-content {
-  background-color: #dd1366;
+  background-color: #193768;
   color: white;
   text-align: center;
   padding: 95px 20px;
@@ -66,7 +66,7 @@ section {
 }
 
 section h2 {
-  color: #dd1366;
+  color: #193768;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -77,7 +77,7 @@ section p {
 }
 
 .why {
-  background-color: #ffe6ef;
+  background-color: #e6e6ff;
   border-radius: 15px;
   padding: 40px 30px;
   margin-top: 40px;
@@ -127,12 +127,12 @@ section ul li::before {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #dd1366;
+  color: #193768;
   font-weight: bold;
 }
 
 footer {
-  background-color: #dd1366;
+  background-color: #193768;
   color: white;
   text-align: center;
   padding: 50px 20px;
